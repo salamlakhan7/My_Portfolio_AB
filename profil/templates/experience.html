@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto py-10">
+    
+    <div class="mb-20 text-left preserve-3d">
+        <h2 class="text-blue-500 font-mono tracking-[0.4em] uppercase text-[10px] mb-3 transform translate-z-[30px]">Professional Track</h2>
+        <h1 class="text-6xl md:text-8xl font-black tracking-tighter transform translate-z-[60px]">
+            EXPERIENCE <span class="text-slate-500">&</span> IMPACT
+        </h1>
+    </div>
+
+    <div class="relative space-y-20 before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-800 before:to-transparent">
+        
+        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group perspective">
+            <div class="flex items-center justify-center w-12 h-12 rounded-full border border-blue-500/50 bg-slate-900 text-blue-500 shadow-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 transition-transform group-hover:scale-110">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
+            </div>
+            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-3rem)] glass p-10 rounded-[3rem] border border-white/5 hover:border-blue-500/40 transition-all duration-700 preserve-3d shadow-2xl">
+                <div class="flex flex-col mb-6 transform translate-z-[40px]">
+                    <time class="font-mono text-[10px] text-blue-400 uppercase tracking-widest mb-3 italic">Nov 2025 – Jan 2026</time>
+                    <h3 class="text-3xl font-black text-white leading-tight">Django Backend Developer</h3>
+                    <span class="text-blue-500/80 font-bold uppercase text-[11px] tracking-tighter">DevelopersHub Corporation© | Internship</span>
+                </div>
+                <div class="text-slate-400 text-sm leading-relaxed space-y-4 transform translate-z-[20px]">
+                    <p class="flex gap-3"><span class="text-blue-500">▹</span> Developed backend systems for <span class="text-white">eCommerce websites</span> focusing on product flow management.</p>
+                    <p class="flex gap-3"><span class="text-blue-500">▹</span> Implemented optimized models, forms, and views to enhance user experience.</p>
+                    <p class="flex gap-3"><span class="text-blue-500">▹</span> Utilized <span class="text-white font-mono text-xs">Django Template Language (DTL)</span> and REST Framework for seamless data delivery.</p>
+                    <div class="pt-4 flex flex-wrap gap-2">
+                        <span class="px-2 py-1 bg-white/5 rounded text-[10px] text-slate-300 font-mono">Django</span>
+                        <span class="px-2 py-1 bg-white/5 rounded text-[10px] text-slate-300 font-mono">DRF</span>
+                        <span class="px-2 py-1 bg-white/5 rounded text-[10px] text-slate-300 font-mono">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group perspective">
+            <div class="flex items-center justify-center w-12 h-12 rounded-full border border-slate-700 bg-slate-900 text-slate-500 shadow-xl shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z"/></svg>
+            </div>
+            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-3rem)] glass p-10 rounded-[3rem] border border-white/5 hover:border-slate-500/40 transition-all duration-700 preserve-3d">
+                <div class="flex flex-col mb-6 transform translate-z-[40px]">
+                    <time class="font-mono text-[10px] text-slate-500 uppercase tracking-widest mb-3 italic">2025 – Present</time>
+                    <h3 class="text-3xl font-black text-white leading-tight">Backend Developer</h3>
+                    <span class="text-slate-500 font-bold uppercase text-[11px] tracking-tighter">Independent Projects | Remote</span>
+                </div>
+                <div class="text-slate-400 text-sm leading-relaxed space-y-4 transform translate-z-[20px]">
+                    <p class="flex gap-3"><span class="text-slate-600">▹</span> Engineered <span class="text-white">RESTful APIs</span> for scalable web architectures.</p>
+                    <p class="flex gap-3"><span class="text-slate-600">▹</span> Implemented secure <span class="text-cyan-400">JWT Authentication</span> and <span class="text-cyan-400">OAuth</span> social login flows.</p>
+                    <p class="flex gap-3"><span class="text-slate-600">▹</span> Integrated <span class="text-purple-400">Celery & Redis</span> for async task processing and <span class="text-emerald-400">Stripe</span> for payments.</p>
+                    <p class="flex gap-3"><span class="text-slate-600">▹</span> Deployed services on cloud platforms with production-ready configurations.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="mt-24 p-12 glass border border-blue-500/10 rounded-[3.5rem] transform translate-z-[30px] text-center">
+        <p class="text-[10px] font-black uppercase tracking-[0.4em] text-blue-500 mb-4">Core Competency</p>
+        <p class="max-w-2xl mx-auto text-slate-400 text-sm italic leading-relaxed">
+            "Bridging the gap between eCommerce flow management and secure, scalable API architectures through rigorous backend engineering."
+        </p>
+    </div>
+</div>
+{% endblock %}
