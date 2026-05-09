@@ -1,7 +1,4 @@
 
-### Proposed `README.md` for `My_Portfolio_AB`
-
-```markdown
 # 🚀 3D Command-Center Portfolio | Django 5.0
 
 A high-performance, interactive portfolio dashboard built to showcase full-stack engineering and backend architecture. This project departs from traditional static resumes, utilizing a custom 3D perspective engine and a "Command Center" UI.
